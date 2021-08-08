@@ -1,0 +1,55 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+button {
+	border-radius: 5px;
+	border: 2px solid #ffffbf;
+	padding: 10px;
+	font: inherit;
+	text-transform: uppercase;
+	background: white;
+}
+
+button:hover, .clicked {
+	background: #ffffbf;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+h1,
+h3 {
+	text-align: center;
+}
+
+h2,
+li {
+	text-align: left;
+}
+
+.instructions {
+	background: #fadadd;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	margin: auto;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.bold-text {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.player-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 0.8em;
+}
