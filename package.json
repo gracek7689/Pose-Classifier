@@ -1,0 +1,22 @@
+{
+  "name": "DrawWithMe",
+  "version": "1.0.1",
+  "description": "A multi-person drawing app, based on code by Dan Shiffman",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  },
+  "engines": {
+    "node": ">=12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
